@@ -9,7 +9,7 @@ d.addEventListener("DOMContentLoaded", (e) => {
         const $componentLi = e.path.find((tag) =>
           tag.classList?.contains("list")
         );
-        console.log($componentLi);
+        // console.log($componentLi);
         $listOptions.forEach((componentLi) =>
           componentLi.classList.remove("active")
         );
